@@ -7,7 +7,7 @@
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 
 		<properties> 
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/persiste" /> <!-- Aqui, deve ser configurado o servidor do banco de dados -->
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/cadastro" /> <!-- Aqui, deve ser configurado o servidor do banco de dados -->
 			<property name="javax.persistence.jdbc.user" value="root" /> <!-- Usuário do banco -->
 			<property name="javax.persistence.jdbc.password" value="" /> <!-- Senha do banco -->
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" /> <!-- Banco utilizado: MySQL -->
@@ -19,8 +19,8 @@
 			<property name="hibernate.connection.provider_class"
 				value="org.hibernate.connection.C3P0ConnectionProvider" />
 
-			<property name="hibernate.c3p0.max_size" value="100" />
-			<property name="hibernate.c3p0.min_size" value="5" />
+			<property name="hibernate.c3p0.max_size" value="100" /> <!-- Número máximo de conexões -->
+			<property name="hibernate.c3p0.min_size" value="5" /> <!-- Número minimo de conexões -->
 			<property name="hibernate.c3p0.acquire_increment" value="1" />
 			<property name="hibernate.c3p0.idle_test_period" value="1800" />
 			<property name="hibernate.c3p0.max_statements" value="50" />
