@@ -2,9 +2,9 @@
 
 ## Ativar o JPA no projeto
 
-### - As bibliotecas estão na pasta de Download (IFPR)
-### - Projects -> Projects Facets -> Ativar JPA (Java Persistence Aplication)
-#### - Vai dar um erro, clique no erro, em TYPE clique em "Disable Library"
+#### - As bibliotecas estão na pasta de Download (IFPR)
+#### - Projects -> Projects Facets -> Ativar JPA (Java Persistence Aplication)
+#####          - Vai dar um erro, clique no erro, em TYPE clique em "Disable Library"
 
 
 
