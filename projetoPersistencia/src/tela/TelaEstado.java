@@ -14,7 +14,7 @@ import principal.Principal;
 
 public class TelaEstado {
 	private Scanner scan = new Scanner(System.in);
-	private String menu = " 1 - Inserir Estado \n 2 - Excluir Estado \n 3 - Alterar Estado \n 4 - Consultar Estados cadastrados\n";
+	private String menu = " 1 - Inserir \n 2 - Excluir \n 3 - Alterar \n 4 - Consultar \n";
 	private Estado estado = new Estado();
 	private DAOEstado dao = new DAOEstado();
 	private Principal principal = new Principal();
@@ -32,10 +32,9 @@ public class TelaEstado {
 			
 			if(op == 1) {
 				System.out.println("INSERIR NOVO ESTADO \n\n\n\n");
-				System.out.println("Estado:");
+				System.out.println("Nome do estado:");
 				String nome = scan.nextLine();
-				
-				System.out.println("Sigla:");
+				System.out.println("Sigla do estado:");
 				String sigla = scan.nextLine();
 				
 				estado.setNome(nome);
@@ -74,6 +73,7 @@ public class TelaEstado {
 				listarCadastros();
 				
 			}
+
 			
 			System.out.println("Deseja realmente continuar? (s/n)");
 			
@@ -82,7 +82,7 @@ public class TelaEstado {
 		}while(r.contentEquals("s"));
 	}
 	
-	//SÃ³ para fazer a listar todos os cadastros em operaÃ§Ãµes
+	//Só para fazer a listar todos os cadastros em operações
 	public void listarCadastros() {
 		System.out.println("-----------------------------------------");
 		System.out.println("LISTAR TODOS ESTADOS");
