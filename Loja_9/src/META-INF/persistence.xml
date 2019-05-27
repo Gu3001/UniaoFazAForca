@@ -7,6 +7,14 @@
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<class>entidade.Cliente</class>
 		<class>entidade.Fornecedor</class>
+		<class>entidade.Compra</class>
+		<class>entidade.Venda</class>
+		<class>entidade.ItensCompra</class>
+		<class>entidade.ItensVenda</class>
+		<class>entidade.Produtos</class>
+		<class>entidade.Lote</class>
+		<class>entidade.Tipo</class>
+		<class>entidade.Preco</class>
 
 
 		<properties> 

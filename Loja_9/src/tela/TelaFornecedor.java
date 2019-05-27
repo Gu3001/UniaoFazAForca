@@ -34,7 +34,7 @@ public class TelaFornecedor {
 				System.out.println("Nome da fornecedor: ");
 				String nome = scan.nextLine();
 				fornecedor.setNome(nome);
-				System.out.println(" rg: ");
+				System.out.println(" tipo: ");
 				String tipo = scan.nextLine();
 				fornecedor.setTipo(tipo);
 				System.out.println(" cnpj: ");
